@@ -12,6 +12,6 @@ jobs:
           python-version: 3.11
       - name: set env
         env:
-          sender: ${{secerts.SENDING_ACCOUNT}}
+          sender: ${{secrets.SENDING_ACCOUNT}}
         run: |
           echo "$env.sender"
