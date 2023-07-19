@@ -1,2 +1,2 @@
-# LiteLIfe
+# LiteLife
 A app
