@@ -14,4 +14,4 @@ jobs:
         env:
           sender: ${{vars.SENDING_ACCOUNT}}
         run: |
-          echo "$env.sender"
+          echo "hi ${{env.sender}}"
