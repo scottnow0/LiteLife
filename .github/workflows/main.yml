@@ -11,7 +11,8 @@ jobs:
         with:
           python-version: 3.11
       - name: set env
-        env:
-          sender: ${{vars.SENDING_ACCOUNT}}
+        env: |
+          sender: ${{env.SENDING_ACCOUNT}}
+      - name: echo env
         run: |
           echo "hi ${{env.sender}}"
